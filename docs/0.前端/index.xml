@@ -12,6 +12,19 @@
     
     <item>
       <title></title>
+      <link>https://docs.wss.cool/docs/0.%E5%89%8D%E7%AB%AF/canvas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.wss.cool/docs/0.%E5%89%8D%E7%AB%AF/canvas/</guid>
+      <description>学习canvas var canvas = document.getElementById(&amp;#39;tutorial&amp;#39;); var ctx = canvas.getContext(&amp;#39;2d&amp;#39;); 获取到canvas元素，然后通过canvas的api获取到绘画上下文。
+画矩形
+context.fillStyle = &amp;#39;red&amp;#39;; context.fillRect(x,y,w,h) 边框
+context.strokeStyle=&amp;#39;red&amp;#39;; context.strokeRect(x,y,w,h) 画路径
+context.beginPath(); context.moveTo(x,y); context.lineTo(x,y); context.lineWith=1; context.strokeStyle=&amp;#34;red&amp;#34;; context.stroke(); context.closePath(); </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://docs.wss.cool/docs/0.%E5%89%8D%E7%AB%AF/event-loop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

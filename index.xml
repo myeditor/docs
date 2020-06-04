@@ -88,6 +88,19 @@ Follow the following steps:
     
     <item>
       <title></title>
+      <link>https://docs.wss.cool/docs/0.%E5%89%8D%E7%AB%AF/canvas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.wss.cool/docs/0.%E5%89%8D%E7%AB%AF/canvas/</guid>
+      <description>学习canvas var canvas = document.getElementById(&amp;#39;tutorial&amp;#39;); var ctx = canvas.getContext(&amp;#39;2d&amp;#39;); 获取到canvas元素，然后通过canvas的api获取到绘画上下文。
+画矩形
+context.fillStyle = &amp;#39;red&amp;#39;; context.fillRect(x,y,w,h) 边框
+context.strokeStyle=&amp;#39;red&amp;#39;; context.strokeRect(x,y,w,h) 画路径
+context.beginPath(); context.moveTo(x,y); context.lineTo(x,y); context.lineWith=1; context.strokeStyle=&amp;#34;red&amp;#34;; context.stroke(); context.closePath(); </description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://docs.wss.cool/docs/0.%E5%89%8D%E7%AB%AF/event-loop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -245,6 +258,15 @@ HTTP升级协商  HTTP握手 Connection: Upgrade 跨域  性能 XHR轮询、SSE�
   2. 请解释 JavaScript 中 this 是如何工作的。 解答 this指向函数运行时所在的对象，而不是创建时。
 比如，对象a的b属性是一个函数，其中打印this。当调用a.b()时打印的是对象a。如果把a.b赋值给一个变量c，在调用c，则打印出来的this是全局变量window。 当函数作为对象的方法时，this指向对象。当直接调用函数时，this指向全局变量。
   </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://docs.wss.cool/docs/3.%E9%9D%A2%E8%AF%95/%E4%BD%9C%E5%93%81/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://docs.wss.cool/docs/3.%E9%9D%A2%E8%AF%95/%E4%BD%9C%E5%93%81/</guid>
+      <description>作品 </description>
     </item>
     
     <item>
